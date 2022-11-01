@@ -1,0 +1,21 @@
+body {
+    background-color: #96C5F7;
+    margin: 0px;
+}
+
+#header, h1 {
+    background-color: #415A77;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
