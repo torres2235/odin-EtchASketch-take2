@@ -1,6 +1,10 @@
 body {
     background-color: #96C5F7;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #header, h1 {
@@ -16,6 +20,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
