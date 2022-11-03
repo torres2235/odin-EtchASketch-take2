@@ -77,7 +77,7 @@ form.addEventListener("submit", function(e){
 
 //these two fucntions generate a random RGB value ("rgb(#, #, #)")
 function getRandomColor() { //To give me a new rgb number everytime
-    return (Math.floor(Math.random() * (255 - 10)) + 10);
+    return (Math.floor(Math.random() * (255)));
 }
 function getColor() {
   return `rgb(${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()})`;
